@@ -1,0 +1,64 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: beige;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    vertical-align: middle;
+    margin-top: 50px;
+}
+
+.all {
+    display: flex;
+    border: 1px solid grey;
+    border-radius: 10px;
+    width: 670px;
+    height: 500px;
+    font-size: 20px;
+    background-color: white;
+    
+    
+}
+.img {
+    margin-right: 40px;
+}
+
+.head {
+    letter-spacing: 5px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.moneis {
+    display: flex;
+}
+
+.money {
+    font-size: xx-large;
+        font-family: "Fraunces", serif;
+        font-weight: 700;
+        color: darkgreen;
+}
+
+.moneys {
+    text-decoration: line-through;
+}
+
+.button {
+    display: flex;
+    border: none;
+    width: 200px;
+    height: 50px;
+    background-color: rgb(32, 148, 90);
+    border-radius: 5px;
+}
+.buttontxt {
+    text-align: center;
+    color: white;
+    transform: translateX(60px);
+}
+
+.btnimg {
+    align-self: center;
+    
+}
